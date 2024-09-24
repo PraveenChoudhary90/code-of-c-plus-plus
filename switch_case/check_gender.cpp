@@ -2,13 +2,10 @@
 using namespace std;
 int main()
 {
-    int gender = 0;
+    char gender = 0;
     cout << "Enter the gender name to check it is male or female" <<" \n";
     cin >> gender;
-    int choice = 0;
-    cout << "Enter the choice" << "\n";
-    cin >> choice;
-    switch(choice == 0){
+    switch(gender){
          case 'M':
          case 'm':
          {
@@ -19,9 +16,11 @@ int main()
          case 'f':
          {
             cout << "female" << "\n";
+            break;
          }
          default:{
             cout << "Other" << "\n";
+            break;
          }
          return 0;
     }
