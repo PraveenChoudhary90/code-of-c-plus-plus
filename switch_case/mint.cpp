@@ -8,20 +8,20 @@
 //     int mint = 0;
 //     cout << "Enter the minute" <<"\n";
 //     cin >> mint;
-//     switch(houres >= 12 && houres <= 24){
-//         case 1:
+//     switch(houres / 12){
+//         case 0:
 //         {
-//             cout << " Time is in  PM" << "\n";
+//             cout << " Time is in  AM" << "\n";
 //             break;
 //         }
-//         switch(houres >= 1 && houres <= 11){
-//         case 2:
+//
+//         case 1:
 //         {
-//            cout << "Time is in AM" << "\n";
+//            cout << "Time is in PM" << "\n";
 //            break;
 //         }
 
-//     }
+//     
 // }
 // }
 #include<iostream>
