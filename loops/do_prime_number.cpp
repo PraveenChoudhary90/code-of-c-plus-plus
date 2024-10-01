@@ -3,7 +3,6 @@ using namespace std;
 int main()
 {
     int number = 0;
-    int i = 0;
     bool f = false;
     cout << "Enter the number which is prime or not" << "\n";
     cin >> number;
