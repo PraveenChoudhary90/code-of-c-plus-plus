@@ -8,7 +8,7 @@ int main(){
         cout << a  << "=" << "its a absolute number" << "\n";
     }
     else{
-        cout << -a  << "=" << "its a absolute number" << "\n";
+        cout << -a  << "= " << "its a absolute number" << "\n";
     }
     return 0;
 
