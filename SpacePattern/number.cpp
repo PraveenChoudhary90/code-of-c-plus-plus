@@ -8,7 +8,7 @@ int main()
         {
             cout << " ";
         }
-        for(int c =1;c<=r;c++)
+        for(int c =r;c>=1;c--)
         {
             cout << c ;
             
