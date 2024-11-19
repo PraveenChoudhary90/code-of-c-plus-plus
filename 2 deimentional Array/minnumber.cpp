@@ -18,10 +18,11 @@ int main()
             if(min > arr[i][j])
             {
                 min =   arr[i][j];
-                break;
+    
             }
-            cout <<  min << "\t";
+           
         }
         cout << "\n";
     }
+     cout <<  min << "\t";
 }

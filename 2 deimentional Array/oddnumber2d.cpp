@@ -16,7 +16,7 @@ int main()
     {
         for(int c= 0;c<3;c++)
         {
-            if(arr[r][c] % 2 == 0)
+            if(arr[r][c] % 2 != 0)
             {
               cout<< arr[r][c]<<"\t";
             }

@@ -20,9 +20,10 @@ int main()
             cout <<  arr[r][c] << "\t";
              sum = sum + a;
         }
-        cout << "sum=" << sum << "\n";
        
     }
+        cout << "sum=" << sum << "\n";
+
     
     return 0;
 
