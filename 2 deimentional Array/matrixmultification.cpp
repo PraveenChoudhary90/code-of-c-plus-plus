@@ -26,11 +26,12 @@ int main()
     cout << "after matirx multificatin logic" << "\n";
     for(int i =0;i<2;i++)
     {
+        sum = 0;
         for(int j=0;j<4;j++)
         {
             for(int k = 0;k<2;k++)
             {
-                sum = 0;
+                
                 sum = sum + m[i][k]*n[k][j];
                 ans[i][j] = sum;
 
