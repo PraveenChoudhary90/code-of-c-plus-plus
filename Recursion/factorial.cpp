@@ -1,15 +1,17 @@
 #include <iostream>
 using namespace std;
-void facttoriyal(int a ,int b){
-    if(a<1){
-        return;
+int facttoriyal(int a ){
+    if(a==0){
+        return 1 ;
     }
-    cout << a*b << "\t";
+
+   return(a*facttoriyal(a-1));
+    
 
 }
 int main(){
     int num ; 
     cout << "Enter the number to create factoriyal" << "\n";
     cin >> num;
-    facttoriyal(num , 1);
+   cout << "factoriyal=" <<  facttoriyal(num) << "\n";
 }
