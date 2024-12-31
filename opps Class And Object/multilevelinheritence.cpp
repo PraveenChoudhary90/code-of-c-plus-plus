@@ -4,16 +4,17 @@ class RBI{
     int t;
     public:void display(){
         cout << "RBI class" << "\n";
-    }
+    };
 };
-class SBI{
-    int t;
+class SBI:public RBI
+{
+    int a;
     public:void show(){
         cout << "SBI class" << "\n";
-    }
+    };
 };
-class CUST{
-    int t;
+class CUST:public SBI{
+    int c;
     public:void account(){
         cout << "cust class" << "\n";
     }
