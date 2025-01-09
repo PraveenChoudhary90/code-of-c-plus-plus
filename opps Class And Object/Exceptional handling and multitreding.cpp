@@ -20,7 +20,7 @@ int main(){
         cout << a/b  << "\n";
     }
     catch(int b){
-        cout << "denominator can not be zero";
+        cout << "denominator can not be zero"<< "\n";
     }
     cout << "done" << "\n";
 }
